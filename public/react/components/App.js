@@ -15,8 +15,6 @@ import { AppProvider } from "../contexts/AppContext";
 import apiURL from "../api";
 
 export const App = () => {
-  const [items, setItems] = useState([]);
-
   // create router and routes: /, /items, /items/:id, /cart
   const routes = (
     <Routes>
